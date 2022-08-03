@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: full;
+    overflow-x: hidden;
+}
+
+.PlusJakartaSans{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+.FadeInLeft{
+    -webkit-animation: FadeInLeft 1.2s both;
+    -moz-animation: FadeInLeft 1.2s both;
+    -o-animation: FadeInLeft 1.2s both;
+    animation: FadeInLeft 1.2s both;
+}
+
+@-webkit-keyframes FadeInLeft{
+    0%{
+        opacity: 0;
+        -webkit-transform: translatex(-50px);
+    }
+    100%{
+        opacity: 100%;
+        -webkit-transform: translatex(0);
+    }
+}
+@-moz-keyframes FadeInLeft{
+    0%{
+        opacity: 0;
+        -moz-transform: translatex(-50px);
+    }
+    100%{
+        opacity: 100%;
+        -moz-transform: translatex(0);
+    }
+}
+@-o-keyframes FadeInLeft{
+    0%{
+        opacity: 0;
+        -o-transform: translatex(-50px);
+    }
+    100%{
+        opacity: 100%;
+        -o-transform: translatex(0);
+    }
+}
+@keyframes FadeInLeft{
+    0%{
+        opacity: 0;
+        transform: translatex(-50px);
+    }
+    100%{
+        opacity: 100%;
+        transform: translatex(0);
+    }
+}

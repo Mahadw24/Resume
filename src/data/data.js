@@ -57,7 +57,7 @@ const data = {
             link:'https://github.com/Mahadw24',
         }
     ],
-    field:'React Developer',
+    field:'Developer',
     aboutMe:'Hello My Name is Mahad, a Passionate react developer looking for a job',
     education:[
         {
